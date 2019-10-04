@@ -17,7 +17,11 @@ var j = schedule.scheduleJob(rule, function(){
 var j = schedule.scheduleJob('0 * * * *', function(){
     console.log('This Message will be displayed after Every Hour ');
   });
- 
+
+ // Node Method toexecute  after Two Hour 
+var j = schedule.scheduleJob('1 * * * *', function(){
+    console.log('This Message will be displayed after Every Two Hours ');
+  });
 
 
 
